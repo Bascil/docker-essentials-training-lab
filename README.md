@@ -1,11 +1,5 @@
 # docker-essentials-training-lab
 
-## Introduction
-
-This hands-on training introduces the fundamentals of Docker, focusing on installation, image management, container lifecycle, and basic database container interaction. Docker is a containerization platform that enables developers to package applications and their dependencies into lightweight, portable containers that run consistently across environments.
-
----
-
 ## Objective
 
 The objective of this lab is to provide learners with practical experience in:
@@ -43,7 +37,7 @@ docker --version
 
 ---
 
-## Nginx Web Server
+## Pull Nginx Image
 
 **Pull image**
 
@@ -65,7 +59,7 @@ http://localhost:8080
 
 ---
 
-## MySQL Container Lab
+## Pull MySQL Image
 
 **Pull image**
 
