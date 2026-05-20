@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This hands-on training introduces the **fundamentals of Docker**, focusing on installation, image management, container lifecycle, and basic database container interaction. Docker is a containerization platform that enables developers to package applications and their dependencies into lightweight, portable containers that run consistently across environments.
+This hands-on training introduces the fundamentals of Docker, focusing on installation, image management, container lifecycle, and basic database container interaction. Docker is a containerization platform that enables developers to package applications and their dependencies into lightweight, portable containers that run consistently across environments.
 
 ---
 
@@ -18,7 +18,7 @@ The objective of this lab is to provide learners with practical experience in:
 - 
 ---
 
-# Lab 1: Install Docker
+# Lab 1: Docker Essentials
 
 ## Install Docker on Ubuntu/Debian
 
@@ -42,8 +42,6 @@ docker --version
 ```
 
 ---
-
-# Lab 2: Docker Images & Containers
 
 ## Nginx Web Server
 
@@ -125,7 +123,3 @@ docker rm mysql-lab
 ```
 
 ---
-
-## Summary
-
-This lab demonstrated how Docker simplifies application deployment using containers. You learned installation, image management, running services, and interacting with containerized applications.
