@@ -9,7 +9,6 @@ The objective of this lab is to provide learners with practical experience in:
 - Running and exposing services using containers
 - Interacting with running containers
 - Managing container lifecycle (start, stop, logs, remove)
----
 
 # Lab 1: Docker Essentials
 
@@ -34,8 +33,6 @@ newgrp docker
 docker --version
 ```
 
----
-
 ## Pull Nginx Image
 
 **Pull image**
@@ -55,8 +52,6 @@ docker run -d -p 8080:80 nginx
 ```
 http://localhost:8080
 ```
-
----
 
 ## Pull MySQL Image
 
@@ -100,9 +95,7 @@ CREATE TABLE users (
 INSERT INTO users(name) VALUES ('Docker User');
 ```
 
----
-
-## Logs
+## View Container Logs
 
 ```bash
 docker logs mysql-lab
